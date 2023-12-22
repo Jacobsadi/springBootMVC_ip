@@ -1,0 +1,31 @@
+<!--header.jsp-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <link rel="stylesheet" href="../../CSS/HeaderStyle.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <!-- <img src="../../photos/iconBar.png" alt="Majlis Bandaraya Iskandar Puteri Logo"> -->
+  </div>
+  <div class="info-card">
+    <div class="info-section">
+      <span class="info-title">NAME:</span>
+      <span class="info">LIM SHI KAI</span>
+    </div>
+    <div class="info-section">
+      <span class="info-title">RESIDENTIAL AREA:</span>
+      <span class="info">SKUDAI</span>
+    </div>
+    <div class="info-section">
+      <span class="info-title">NRIC Number:</span>
+      <span class="info">021231-01-5582</span>
+    </div>
+  </div>
+</body>

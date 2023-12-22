@@ -1,0 +1,49 @@
+/* HeaderStyle.css */
+body {
+    padding-top: 60px; /* Adjust this value to the height of your navbar */
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.navbar {
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00457C;
+    /* Adjust the color to fit your branding */
+    color: white;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.info-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -850px;
+    /* Adjust based on the actual height of your navbar */
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.info-section {
+    margin: 0 10px;
+}
+
+.info-title {
+    font-weight: bold;
+}
+
+.info {
+    display: block;
+    /* Makes the info appear on a new line below the title */
+}
